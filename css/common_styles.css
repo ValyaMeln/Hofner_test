@@ -1,0 +1,186 @@
+h2{
+    /*font-family: Alumni Sans, sans-serif;*/
+    /*font-style: normal;*/
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    /*color: #1A1B21;*/
+}
+h3{
+    /*font-family: Alumni Sans, sans-serif;*/
+    /*font-style: normal;*/
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    /*color: #1A1B21;*/
+}
+h4 {
+    /*font-style: normal;*/
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    /*color: #1A1B21;*/
+}
+h5{
+    /*font-style: normal;*/
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    /*color: #1A1B21;*/
+}
+
+.paragraph1{
+    font-family: Roboto, sans-serif;
+    /*font-style: normal;*/
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #010306;
+}
+.paragraph2{
+    font-family: Roboto,sans-serif;
+    /*font-style: normal;*/
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /*color: #010306;*/
+}
+.paragraph3{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+.row{
+    padding: 100px 0;
+}
+/*кнопка Велика оранжева*/
+.goTo{
+    background: #FCB500;
+    border: none;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 17px 80px;
+}
+.goTo:hover{
+    background: #FFC635;
+}
+/* Кнопка оранжева з кошика*/
+/*.toBasket{*/
+/*    position: relative;*/
+/*    border: none;*/
+/*    background: #FCB500;*/
+/*    border-radius: 0 0 0 4px;*/
+/*    font-family: Alumni Sans,sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 18px;*/
+/*    line-height: 22px;*/
+/*    letter-spacing: 0.02em;*/
+/*    text-transform: uppercase;*/
+/*    color: #000000;*/
+/*    padding: 12px 40px 12px 25px;*/
+/*}*/
+.toBasket {
+    position: relative;
+    border: none;
+    background: #FCB500;
+    border-radius: 0 0 0 4px;
+    font-family: Alumni Sans,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 12px 30px 12px 20px;
+}
+
+.toBasket::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right:11px;
+    height: 18px;
+    width: 19px;
+    background: transparent url(../svg/black_basket.svg) 0 0/100% no-repeat;
+}
+.toBasket:hover{
+    background: #FFC635;
+}
+.toBasket:hover::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right:11px;
+    height: 18px;
+    width: 19px;
+    background: transparent url(../svg/plus_black.svg)  0 0/100% no-repeat;
+}
+/*.btnHighlight{*/
+/*    position: relative;*/
+/*    border: none;*/
+/*    background: #000000;*/
+/*    border-radius: 0 0 4px 0;*/
+/*    font-family: Alumni Sans,sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-size: 18px;*/
+/*    line-height: 22px;*/
+/*    text-align: center;*/
+/*    letter-spacing: 0.02em;*/
+/*    text-transform: uppercase;*/
+/*    color: #FFFFFF;*/
+/*    padding: 12px 40px 12px 25px;*/
+/*}*/
+.btnHighlight {
+    position: relative;
+    border: none;
+    background: #000000;
+    border-radius: 0 0 4px 0;
+    font-family: Alumni Sans,sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 40px 12px 25px;
+}
+.btnHighlight::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right:18px;
+    height: 18px;
+    width: 19px;
+    background: transparent url(../svg/white_heart.svg) 0 0/100% no-repeat;
+}
+.ourProducts__product_column .has_no_padding,
+.ourAdvantages__product_column .has_no_padding
+{
+    padding: 0;
+}

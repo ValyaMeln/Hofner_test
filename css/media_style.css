@@ -1,0 +1,25 @@
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    .header__menu_container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 440px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
