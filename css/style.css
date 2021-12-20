@@ -239,9 +239,9 @@ img {
     background: url('../images/ourProducts/Loading.png') 100% 100%/cover no-repeat;
 }
 
-/*.newDevelopments {*/
-/*    padding: 100px 0;*/
-/*}*/
+.newDevelopments {
+    padding-top: 100px;
+}
 
 .newDevelopments__all_goods {
     margin-left: 100px;
@@ -256,7 +256,9 @@ img {
 .newDevelopments__navigation_goods_cards {
     padding-bottom: 20px;
 }
-
+.newDevelopments__cards{
+    padding-top: 0;
+}
 .newDevelopments__arrow_left {
     margin-right: 10px;
     cursor: pointer;
