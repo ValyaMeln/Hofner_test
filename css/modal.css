@@ -1,0 +1,57 @@
+.modal__ourAdvantages__btn_read_more {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.modal__ourAdvantages_content {
+    padding: 45px 45px 25px;
+    max-width: 895px;
+    margin: auto;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 15%;
+    right: 0;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(5, 7, 28, 0.18);
+}
+
+.modal__ourAdvantages_close {
+    position: absolute;
+    top: 40px;
+    right: 45px;
+
+    /*border: none;*/
+    /*background-color: transparent;*/
+    /*font-weight: 600;*/
+    /*font-size: 22px;*/
+    /*line-height: 26px;*/
+    /*letter-spacing: 0.02em;*/
+    /*text-decoration-line: underline;*/
+    /*text-transform: uppercase;*/
+}
+
+.modal-content-show {
+    display: block;
+    animation: fade .6s;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -64,7 +64,7 @@ h5{
     font-size: 16px;
     line-height: 22px;
 }
-.row{
+.paddingTB{
     padding: 100px 0;
 }
 /*кнопка Велика оранжева*/
@@ -183,4 +183,24 @@ h5{
 .ourAdvantages__product_column .has_no_padding
 {
     padding: 0;
+}
+
+.btn_read_more {
+    color: #FCB500;
+    text-decoration-line: underline;
+    /*cursor: pointer;*/
+    border: none;
+    background-color: transparent;
+    font-family: Alumni Sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.btn_read_more:hover {
+    text-decoration-line: none;
+    color: #FCB500;
 }
