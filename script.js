@@ -14,12 +14,8 @@
 // }
 
 let ourAdvantagesOpen = document.querySelector('.btn_read_more__cloth');
-
-let ourAdvantagesPopup = document.querySelector("#btn_read_more");
-
+let ourAdvantagesPopup = document.querySelector(".modal__ourAdvantages__btn_read_more");
 let ourAdvantagesClose = document.querySelector(".modal__ourAdvantages_close");
-
-
 
 ourAdvantagesOpen.addEventListener("click", function (event) {
     event.preventDefault();
@@ -30,7 +26,6 @@ ourAdvantagesOpen.addEventListener("click", function (event) {
 ourAdvantagesClose.addEventListener("click", function (event) {
     event.preventDefault();
     ourAdvantagesPopup.classList.remove('modal-content-show');
-    // ourAdvantagesPopup.classList.remove('modal-error');
     console.log("Клік по силці33333");
 });
 
