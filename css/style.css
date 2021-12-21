@@ -82,22 +82,73 @@ img {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.header__menu_link_wrapper{
+
+}
 
 .header__menu_link {
+    /*position: relative;*/
     padding: 5px 30px;
     cursor: pointer;
     color: #FFFFFF;
 }
 
 .header__menu_link:hover {
-    color: #000000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
     text-decoration: none;
+    border-bottom: 2px solid #FCB500;
+    transform: matrix(1, 0, 0, -1, 0, 0);;
 }
 
 .header__menu_button {
     margin-left: 20px;
 }
+/*==============start header__dropdown-menu================*/
+.header__menu_link_wrapper{
+    position: relative;
+}
+.header__dropdown_menu{
+    display: none;
+   width: 480px;
+    max-width: 480px;
+    padding: 30px 15px 15px;
+    position: absolute;
+    z-index: 15;
+    left: 15px;
+    top: 31px;
+    color: #FFFFFF;
+    text-transform: initial;
+    background: #1B1B1F;
+    text-align: left;
+}
+
+.header__dropdown-menu-item{
+    margin-bottom: 14px;
+}
+.header__dropdown-menu_results_shops{
+    list-style: initial;
+    padding-left: 15px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 14px;
+}
+.header__dropdown-menu_results_shops_item::marker{
+    color: #FCB500;
+
+}
+.header__dropdown-menu_results_shops_item{
+    margin-bottom: 14px;
+}
+.header__dropdown-menu_results_shops_item:last-child{
+    margin-bottom: 0;
+}
+.header__menu_link_wrapper:hover > .header__dropdown_menu {
+    display: flex;
+}
+/*==============end header__dropdown-menu================*/
 
 .slider {
     position: relative;
