@@ -2,13 +2,115 @@
 
 }
 
+@media screen and (max-width: 1110px) {
+    .footer__subscription {
+        margin-left: 20px;
+    }
+
+    .footer__subscription_btn {
+        width: 150px;
+        min-width: 100%;
+    }
+}
+
+
 @media screen and (max-width: 992px) {
     .header__menu_container {
         flex-wrap: wrap;
     }
+
+    .ourAdvantages__card:first-child {
+        padding-left: 25px;
+    }
+
+    .ourAdvantages__card:nth-child(3n) {
+        padding-right: 25px;
+    }
+
+    .ourAdvantages__card:nth-child(4) {
+        padding-left: 25px;
+    }
+
 }
 
+@media screen and (max-width: 865px) {
+    .footer__container {
+        position: relative;
+        flex-wrap: wrap;
+    }
+
+    .footer__menu_wrapper {
+        width: 100%;
+    }
+
+    .footer__menu_item {
+        padding-right: 50px;
+    }
+
+    .footer__menu_item:last-child {
+        padding-right: 0;
+    }
+
+    .footer__tel_email {
+        width: 100%;
+    }
+
+    .footer__subscription {
+        width: 100%;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
+    h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .paragraph3 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .tacticalEquipment__left_text {
+        padding-right: 30px;
+    }
+
+    .ourInstagram__product {
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .ourInstagram__info{
+        padding-bottom: 15px;
+    }
+
+    .productsTested__row {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .productsTested__info {
+        padding-right: 140px;
+        padding-left: 0;
+    }
+
+    .footer__container {
+        /*display: inline;*/
+    }
+
+    .footer__menu_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .footer__menu_item {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
 
 }
 

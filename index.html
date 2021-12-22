@@ -30,28 +30,32 @@
 
     <div class="header__information">
         <div class="container d-flex justify-content-between">
-            <div class="d-flex">
+            <div class="d-flex align-items-center">
                 <div class="header__information_workSchedule">
                     ПН-СБ: 09:00–19:00
                 </div>
                 <a class="header_information_phone" href="tel:+380968120013">+38 (096) 812 00 13</a>
             </div>
             <div class="d-flex">
-                <div class="header__information_wrapper_select">
-                    <label class="header__label_language" for="language">МОВА:</label>
-                    <select class="header__select_language" id="language">
-                        <option>УКР</option>
-                        <option>РУС</option>
-                        <option>ENG</option>
-                    </select>
+                <div class="header__selects">
+                    <div class="header__select_language">
+                        <button class="header__select_btn_language">МОВА: УКР</button>
+                        <ul class="list_languages">
+                            <li class="list_languages_item">УКРАЇНСЬКА</li>
+                            <li class="list_languages_item">РУССКИЙ</li>
+                            <li class="list_languages_item">ENGlish</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="header__information_wrapper_select">
-                    <label class="header__label_currency" for="currency">ВАЛЮТА:</label>
-                    <select class="header__select_currency" id="currency">
-                        <option>uah</option>
-                        <option>РУС</option>
-                        <option>ENG</option>
-                    </select>
+                <div class="header__selects">
+                    <div class="header__select_currency">
+                        <button class="header__select_btn_currency">ВАЛЮТА: uah</button>
+                        <ul class="list_currency">
+                            <li class="list_languages_item">Uah (₴)</li>
+                            <li class="list_languages_item">eur (€)</li>
+                            <li class="list_languages_item">usd ($)</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,7 +72,8 @@
                         <a href="#" class="header__menu_link">Одяг</a>
                     </li>
                     <li class="header__menu_link_wrapper">
-                        <a href="#" class="header__menu_link">Медицина</a></li>
+                        <a href="#" class="header__menu_link">Медицина</a>
+                    </li>
                     <li class="header__menu_link_wrapper">
                         <div>
                             <a href="#" class="header__menu_link">Підсумки</a>
@@ -79,8 +84,12 @@
                                     <li class="header__dropdown-menu-item">
                                         Підсумки для магазинів
                                         <ul class="header__dropdown-menu_results_shops">
-                                            <li class="header__dropdown-menu_results_shops_item">Для пістолетних магазинів</li>
-                                            <li class="header__dropdown-menu_results_shops_item">Для автоматних магазинів</li>
+                                            <li class="header__dropdown-menu_results_shops_item">Для пістолетних
+                                                магазинів
+                                            </li>
+                                            <li class="header__dropdown-menu_results_shops_item">Для автоматних
+                                                магазинів
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="header__dropdown-menu-item">
@@ -130,6 +139,10 @@
                 <li class="header__menu_button"><img src="images/headerMenu/icon.svg" alt="icon"></li>
                 <li class="header__menu_button"><img src="images/headerMenu/love.svg" alt="love"></li>
                 <li class="header__menu_button"><img src="images/headerMenu/cart.svg" alt="cart"></li>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
             </ul>
         </div>
     </div>
@@ -164,7 +177,7 @@
 <section class="ourProducts">
     <div class="ourProducts__container container">
         <div class="ourProducts__product row">
-            <div class="ourProducts__product_column col-12 col-sm-6 col-md-4">
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="ourProducts__product_item has_no_padding item">
                     <h2 class="ourProducts__title">Наші товари</h2>
                     <p class="ourProducts__product_text">
@@ -173,7 +186,7 @@
                     </p>
                 </div>
             </div>
-            <div class="ourProducts__product_column col-12 col-sm-6 col-md-4">
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="ourProducts__product_item ourProducts__clothing item">
                     <h5 class="ourProducts__product_choose choose">Обирай</h5>
                     <h2 class="ourProducts__product_title">
@@ -182,7 +195,7 @@
                     <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
                 </div>
             </div>
-            <div class="ourProducts__product_column col-12 col-sm-6 col-md-4">
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="ourProducts__product_item ourProducts__medicine item">
                     <h5 class="ourProducts__product_choose choose">Обирай</h5>
                     <h2 class="ourProducts__product_title">
@@ -191,7 +204,7 @@
                     <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
                 </div>
             </div>
-            <div class="ourProducts__product_column col-12 col-sm-6 col-md-4">
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="ourProducts__product_item ourProducts__results item">
                     <h5 class="ourProducts__product_choose choose">Обирай</h5>
                     <h2 class="ourProducts__product_title">
@@ -200,7 +213,7 @@
                     <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
                 </div>
             </div>
-            <div class="ourProducts__product_column col-12 col-sm-6 col-md-4">
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="ourProducts__product_item ourProducts__backpacks item">
                     <h5 class="ourProducts__product_choose choose">Обирай</h5>
                     <h2 class="ourProducts__product_title">
@@ -209,7 +222,7 @@
                     <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
                 </div>
             </div>
-            <div class="ourProducts__product_column col-12 col-sm-6 col-md-4">
+            <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
                 <div class="ourProducts__product_item ourProducts__unloading item">
                     <h5 class="ourProducts__product_choose choose">Обирай</h5>
                     <h2 class="ourProducts__product_title _icon-user_letter path2">
@@ -228,103 +241,203 @@
             <h2>Наші нові розробки</h2>
             <div class="d-flex align-items-center">
                 <div class="newDevelopments__arrow d-flex align-items-center ">
-                    <div class="newDevelopments__arrow_left">
+                    <div class="newDevelopments__arrow_left" href="#carouselExampleControls2" role="button"
+                         data-slide="prev">
                         <img src="images/newDevelopments/arrow_left.png" alt="arrow left">
                     </div>
-                    <div class="newDevelopments__arrow_right">
+                    <div class="newDevelopments__arrow_right" href="#carouselExampleControls2" role="button"
+                         data-slide="next">
                         <img src="images/newDevelopments/arrow_right.png" alt="arrow right">
                     </div>
                 </div>
                 <h4 class="newDevelopments__all_goods">Усі товари</h4>
             </div>
         </div>
-        <div class="newDevelopments__cards row">
-            <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="newDevelopments__card item">
-                    <div class="tags">
-                        <img src="svg/tag-sale.svg" alt="sale">
+        <div id="carouselExampleControls2" class="carousel slide" data-iterval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="newDevelopments__cards row">
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img src="svg/tag-sale.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/COMBAT_SHIRT.png" alt="COMBAT SHIRT">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img src="svg/tag-sale.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/chekhol-bronezhileta.png" alt="tactical Equipment">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img src="svg/tag-new.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/multicam.png" alt="tactical Equipment">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img class="tags_number" src="svg/tags20.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/FRAME_PIDSUMOK.png" alt="tactical Equipment">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="newDevelopments__photo_goods">
-                        <img class="newDevelopments__photo_vest"
-                             src="images/newDevelopments/COMBAT_SHIRT.png" alt="COMBAT SHIRT">
-                    </div>
-                    <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
-                    <span class="newDevelopments__new_price">3 543,00 ₴</span>
-                    <span class="newDevelopments__old_price">4 168,00 ₴</span>
                 </div>
-                <div class="d-flex align-items-center">
-                    <button class="newDevelopments__toBasket toBasket">
-                        ДО КОШИКА
-                    </button>
-                    <button class="newDevelopments__btnHighlight btnHighlight">
-                        В ОБРАНЕ
-                    </button>
-                </div>
-            </div>
-            <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="newDevelopments__card item">
-                    <div class="tags">
-                        <img src="svg/tag-sale.svg" alt="sale">
+                <div class="carousel-item">
+                    <div class="newDevelopments__cards row">
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img class="tags_number" src="svg/tags20.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/FRAME_PIDSUMOK.png" alt="tactical Equipment">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img src="svg/tag-sale.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/COMBAT_SHIRT.png" alt="COMBAT SHIRT">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img src="svg/tag-sale.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/chekhol-bronezhileta.png" alt="tactical Equipment">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
+                            <div class="newDevelopments__card item">
+                                <div class="tags">
+                                    <img src="svg/tag-new.svg" alt="sale">
+                                </div>
+                                <div class="newDevelopments__photo_goods">
+                                    <img class="newDevelopments__photo_vest"
+                                         src="images/newDevelopments/multicam.png" alt="tactical Equipment">
+                                </div>
+                                <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
+                                <span class="newDevelopments__new_price">3 543,00 ₴</span>
+                                <span class="newDevelopments__old_price">4 168,00 ₴</span>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <button class="newDevelopments__toBasket toBasket">
+                                    ДО КОШИКА
+                                </button>
+                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                    В ОБРАНЕ
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="newDevelopments__photo_goods">
-                        <img class="newDevelopments__photo_vest"
-                             src="images/newDevelopments/chekhol-bronezhileta.png" alt="tactical Equipment">
-                    </div>
-                    <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
-                    <span class="newDevelopments__new_price">3 543,00 ₴</span>
-                    <span class="newDevelopments__old_price">4 168,00 ₴</span>
-                </div>
-                <div class="d-flex align-items-center">
-                    <button class="newDevelopments__toBasket toBasket">
-                        ДО КОШИКА
-                    </button>
-                    <button class="newDevelopments__btnHighlight btnHighlight">
-                        В ОБРАНЕ
-                    </button>
-                </div>
-            </div>
-            <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="newDevelopments__card item">
-                    <div class="tags">
-                        <img src="svg/tag-new.svg" alt="sale">
-                    </div>
-                    <div class="newDevelopments__photo_goods">
-                        <img class="newDevelopments__photo_vest"
-                             src="images/newDevelopments/multicam.png" alt="tactical Equipment">
-                    </div>
-                    <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
-                    <span class="newDevelopments__new_price">3 543,00 ₴</span>
-                    <span class="newDevelopments__old_price">4 168,00 ₴</span>
-                </div>
-                <div class="d-flex align-items-center">
-                    <button class="newDevelopments__toBasket toBasket">
-                        ДО КОШИКА
-                    </button>
-                    <button class="newDevelopments__btnHighlight btnHighlight">
-                        В ОБРАНЕ
-                    </button>
-                </div>
-            </div>
-            <div class="newDevelopments__column col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="newDevelopments__card item">
-                    <div class="tags">
-                        <img class="tags_number" src="svg/tags20.svg" alt="sale">
-                    </div>
-                    <div class="newDevelopments__photo_goods">
-                        <img class="newDevelopments__photo_vest"
-                             src="images/newDevelopments/FRAME_PIDSUMOK.png" alt="tactical Equipment">
-                    </div>
-                    <h4 class="newDevelopments__product_name">БОЙОВА СОРОЧКА CS PIXEL ММ14</h4>
-                    <span class="newDevelopments__new_price">3 543,00 ₴</span>
-                    <span class="newDevelopments__old_price">4 168,00 ₴</span>
-                </div>
-                <div class="d-flex align-items-center">
-                    <button class="newDevelopments__toBasket toBasket">
-                        ДО КОШИКА
-                    </button>
-                    <button class="newDevelopments__btnHighlight btnHighlight">
-                        В ОБРАНЕ
-                    </button>
                 </div>
             </div>
         </div>
@@ -360,7 +473,7 @@
 <section class="ourInstagram paddingTB">
     <div class="ourInstagram__container container">
         <div class="ourInstagram__row row">
-            <div class="ourInstagram__info col-4">
+            <div class="ourInstagram__info col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <h2 class="ourInstagram__title">Ще більше цікавого у нашому Instagram</h2>
                 <p class="ourInstagram__text paragraph3">Підписуйся на нашу сторінку в Instagram та першим
                     дізнайвайся про новинки та акції. Також на тебе чекають
@@ -370,8 +483,8 @@
                 </button>
             </div>
 
-            <div class="ourInstagram__photos col-8">
-
+            <div class="ourInstagram__photos col-12 col-sm-12 col-md-8">
+                <!--            <div class="ourInstagram__photos col-md-8 col-lg-8 col-xl-8">-->
                 <!--                <div class="ourInstagram__photo_top d-flex">-->
                 <!--                    <div class="ourInstagram__photo">-->
                 <!--                        <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>-->
@@ -402,37 +515,37 @@
                 <!--                </div>-->
 
                 <div class="ourInstagram__product row">
-                    <div class="ourInstagram__product_column col-12 col-sm-6 col-md-4">
+                    <div class="ourInstagram__product_column col-4 col-sm-4 col-md-4">
                         <div class="ourInstagram__photo">
                             <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>
                             <img src="images/ourInstagram/hofner1.png" alt="Фотография 1">
                         </div>
                     </div>
-                    <div class="ourInstagram__product_column col-12 col-sm-6 col-md-4">
+                    <div class="ourInstagram__product_column col-4 col-sm-4 col-md-4">
                         <div class="ourInstagram__photo">
                             <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>
                             <img src="images/ourInstagram/hofner2.png" alt="Фотография 2">
                         </div>
                     </div>
-                    <div class="ourInstagram__product_column col-12 col-sm-6 col-md-4">
+                    <div class="ourInstagram__product_column col-4 col-sm-4 col-md-4">
                         <div class="ourInstagram__photo">
                             <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>
                             <img src="images/ourInstagram/hofner3.png" alt="Фотография 3">
                         </div>
                     </div>
-                    <div class="ourInstagram__product_column col-12 col-sm-6 col-md-4">
+                    <div class="ourInstagram__product_column col-4 col-sm-4 col-md-4">
                         <div class="ourInstagram__photo">
                             <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>
                             <img src="images/ourInstagram/hofner4.png" alt="Фотография 1">
                         </div>
                     </div>
-                    <div class="ourInstagram__product_column col-12 col-sm-6 col-md-4">
+                    <div class="ourInstagram__product_column col-4 col-sm-4 col-md-4">
                         <div class="ourInstagram__photo">
                             <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>
                             <img src="images/ourInstagram/hofner5.png" alt="Фотография 2">
                         </div>
                     </div>
-                    <div class="ourInstagram__product_column col-12 col-sm-6 col-md-4">
+                    <div class="ourInstagram__product_column col-4 col-sm-4 col-md-4">
                         <div class="ourInstagram__photo">
                             <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>
                             <img src="images/ourInstagram/hofner6.png" alt="Фотография 3">
@@ -447,7 +560,7 @@
 <section class="productsTested paddingTB">
     <div class="productsTested__container container">
         <div class="productsTested__row row">
-            <div class="productsTested__info col-12 col-sm-6 col-md-5">
+            <div class="productsTested__info col-12 col-sm-12 col-md-5 col-xl-5">
                 <h2 class="productsTested__title">ВСЯ ПРОДУКЦІЯ ПРОЙШЛА ВИПРОБУВАННЯ В ЗОНІ ООС (АТО)</h2>
                 <p class="productsTested__text paragraph3">Випробувано залізними людьми в залізних умовах. Наша
                     продукція розроблена спільно з військовими фахівцями, з огляду на досвід бойових дій на сході
@@ -456,13 +569,13 @@
                     зручність
                     спорядження Hofner поліпшило якість проведення багатьох бойових операцій.</p>
             </div>
-            <div class="productsTested__video col-12 col-sm-6 col-md-7 ">
-                <div class="productsTested__video">
-                    <iframe src="https://www.youtube.com/embed/7JoTakp1w1A"
-                            title="" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
+            <div class="productsTested__video col-12 col-sm-12 col-md-7 col-xl-7">
+                <!--                <div class="productsTested__video">-->
+                <iframe src="https://www.youtube.com/embed/7JoTakp1w1A"
+                        title="" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                <!--                </div>-->
             </div>
         </div>
     </div>
@@ -580,7 +693,7 @@
         </div>
     </div>
     <div class="footer__menu">
-        <div class="footer__container container d-flex flex-wrap justify-content-between">
+        <div class="footer__container container d-flex justify-content-between">
             <ul class="footer__menu_wrapper d-flex justify-content-between">
                 <li class="footer__menu_item">
                     <ul>
@@ -639,36 +752,37 @@
                         </li>
                     </ul>
                 </li>
-                <li class="footer__menu_item">
-                    <ul>
-                        <li class="footer__menu_item_title"><h4>Контакти</h4></li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <div class="footer__menu_item_phone d-flex ">
-                                <div class="_icon-icon-phone"></div>
-                                <a class="footer__menu_link link_tel" href="tel:+380968120013">+38 (096) 812 00 13</a>
-                            </div>
-                            <div class="footer__menu_item_text">Пн–Сб, 09:00–19:00</div>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <div class="footer__menu_item_phone d-flex ">
-                                <div class="_icon-icon-mail"></div>
-                                <a class=" footer__menu_link link_eml">hofner.ukraine@gmail.com</a>
-                            </div>
-                            <div class="footer__menu_item_text">Електронна адреса</div>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <div class="footer__subscription">
-                <h4 class="footer__subscription_title">Підписка на новини та акції</h4>
-                <div class="footer__subscription_wrapper_inp">
-                    <input class="inp paragraph2" spellcheck="false"/>
-                    <div class="label paragraph2">E-mail</div>
-                </div>
 
-                <button class="footer__subscription_btn goTo">
-                    ОФОРМИТИ ПІДПИСКУ
-                </button>
+            </ul>
+            <div class="footer__tel_email d-flex justify-content-between">
+                <ul>
+                    <li class="footer__menu_item_title"><h4>Контакти</h4></li>
+                    <li class="footer__menu_item_variant paragraph2">
+                        <div class="footer__menu_item_phone d-flex ">
+                            <div class="_icon-icon-phone"></div>
+                            <a class="footer__menu_link link_tel" href="tel:+380968120013">+38 (096) 812 00 13</a>
+                        </div>
+                        <div class="footer__menu_item_text">Пн–Сб, 09:00–19:00</div>
+                    </li>
+                    <li class="footer__menu_item_variant paragraph2">
+                        <div class="footer__menu_item_phone d-flex ">
+                            <div class="_icon-icon-mail"></div>
+                            <a class=" footer__menu_link link_eml">hofner.ukraine@gmail.com</a>
+                        </div>
+                        <div class="footer__menu_item_text">Електронна адреса</div>
+                    </li>
+                </ul>
+                <div class="footer__subscription">
+                    <h4 class="footer__subscription_title">Підписка на новини та акції</h4>
+                    <div class="footer__subscription_wrapper_inp">
+                        <input class="inp paragraph2" spellcheck="false"/>
+                        <div class="label paragraph2">E-mail</div>
+                    </div>
+
+                    <button class="footer__subscription_btn goTo">
+                        ОФОРМИТИ ПІДПИСКУ
+                    </button>
+                </div>
             </div>
         </div>
     </div>

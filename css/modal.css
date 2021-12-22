@@ -14,11 +14,11 @@
 .modal__ourAdvantages_content {
     padding: 45px 45px 25px;
     max-width: 895px;
-    margin: auto;
+    margin: 10% auto;
     position: fixed;
     z-index: 2;
     left: 0;
-    top: 15%;
+    /*top: 15%;*/
     right: 0;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(5, 7, 28, 0.18);
