@@ -17,6 +17,7 @@
 @media screen and (max-width: 992px) {
     .header__menu_container {
         flex-wrap: wrap;
+        justify-content: space-around;
     }
 
     .ourAdvantages__card:first-child {
@@ -30,7 +31,9 @@
     .ourAdvantages__card:nth-child(4) {
         padding-left: 25px;
     }
-
+    .footer__menu_item {
+        padding-right: 25px;
+    }
 }
 
 @media screen and (max-width: 865px) {
@@ -41,6 +44,7 @@
 
     .footer__menu_wrapper {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .footer__menu_item {
@@ -58,6 +62,16 @@
     .footer__subscription {
         width: 100%;
     }
+
+    .footer__bottom_bank_cards {
+        padding-left: 50px;
+    }
+
+    .footer__bottom_socials {
+        padding-right: 50px;
+    }
+
+
 }
 
 
@@ -71,35 +85,88 @@
         font-size: 14px;
         line-height: 20px;
     }
+    .paddingTB {
+        padding: 60px 0;
+    }
+
+    .header__information {
+        display: none;
+    }
+
+    .header__menu_container {
+        justify-content: space-between;
+    }
+
+    .header__menu_logo {
+        display: none;
+    }
+
+    .header__menu_logo_top {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .header__menu_body {
+        display: none;
+    }
+
+    .header__menu_buttons_tablet {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__menu_buttons_tablet .header__menu_button:first-child {
+        margin-left: 0;
+    }
+
+    .header__menu_buttons .header__menu_button:nth-child(-n+2) {
+        display: none;
+    }
+
+    .slider__button_link {
+        display: none;
+    }
 
     .tacticalEquipment__left_text {
         padding-right: 30px;
     }
+    /*.newDevelopments__navigation_goods_title {*/
+    /*    flex: 1 1 50%;*/
+    /*}*/
 
+    /*.newDevelopments__navigation_goods_btn {*/
+    /*    flex: 1 1 50%;*/
+    /*}*/
     .ourInstagram__product {
         flex-wrap: nowrap;
         overflow: hidden;
     }
-    .ourInstagram__info{
+
+    .ourInstagram__info {
         padding-bottom: 15px;
     }
-
+    .ourInstagram__product_column{
+        max-width: 235px;
+    }
     .productsTested__row {
         padding-left: 20px;
         padding-right: 20px;
     }
 
     .productsTested__info {
-        padding-right: 140px;
+        padding-right: 40px;
         padding-left: 0;
     }
-
-    .footer__container {
-        /*display: inline;*/
+    .footer__btn_go_up {
+        max-width: 40px;
+        bottom: 0;
+        right: 15px;
+        top:500px;
     }
 
     .footer__menu_wrapper {
         flex-wrap: wrap;
+        margin-bottom: 15px;
     }
 
     .footer__menu_item {
@@ -107,21 +174,177 @@
         max-width: 33.333333%;
     }
 
-    .header__menu {
+    .footer__bottom_business_text {
         display: none;
     }
 
+    .footer__bottom_bank_cards {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .footer__bottom_socials {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .modal__ourAdvantages_content {
+        margin: auto;
+        overflow-y: scroll;
+    }
 
 }
+@media screen and (max-width: 692px) {
+    .footer__btn_go_up {
+        top: 570px;
+    }
+}
 
+@media screen and (max-width: 585px) {
+    .footer__btn_go_up {
+        top: 590px;
+    }
+}
 @media screen and (max-width: 576px) {
+    .newDevelopments__all_goods{
+        margin-left: 30px;
+    }
+    .productsTested__info {
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 570px) {
+    .footer__bottom_business {
+        margin-top: 20px;
+    }
+}
 
+@media screen and (max-width: 535px) {
+    .footer__bottom_business {
+        margin-top: 0;
+    }
+
+}
+@media screen and (max-width: 448px) {
+    .footer__btn_go_up {
+        top: 625px;
+    }
 }
 
 @media screen and (max-width: 440px) {
+    .header__menu_container {
+        flex-wrap: nowrap;
+    }
 
+    .header__menu_logo_top {
+        max-width: 76px;
+    }
+
+    .header__menu_buttons_tablet .header__menu_button {
+        max-width: 20px;
+    }
+
+    .header__menu_button {
+        max-width: 30px;
+    }
+    
+    .newDevelopments__navigation_goods_cards {
+        flex-wrap: wrap;
+    }
+    .newDevelopments__navigation_goods_btn {
+        width: 100%;
+    }
+    .footer__btn_go_up {
+        top: 500px;
+        z-index: 2;
+    }
+    .footer__bottom_bank_cards {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .footer__bottom_bank_card {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .footer__bottom_socials {
+        padding-left: 0;
+    }
+
+    .footer__bottom_business::before {
+        right: 0;
+    }
+    .footer__contacts{
+        display: none;
+    }
+    .footer__subscription {
+        margin-left: 0;
+    }
+    .footer__menu_item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        border-bottom: 1px solid #31353E;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .footer__menu_catalog{
+        display: none;
+    }
+    .footer__menu_item_title {
+        position: relative;
+    }
+    .footer__menu_item_title::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        right: 0;
+        margin: auto;
+        height: 5px;
+        width: 8px;
+        background: transparent url(../images/headerMenu/select.svg) 0 0/100% no-repeat;
+    }
+    .footer__menu_item {
+        padding-right: 15px;
+    }
+    .footer__menu_item:last-child {
+        padding-right: 15px;
+    }
+    .footer__subscription_title {
+        margin-bottom: 20px;
+    }
+    .footer__menu {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-
+    .paddingTB {
+        padding: 50px 0;
+    }
+    .newDevelopments__navigation_goods_cards {
+        flex-wrap: wrap;
+    }
+    .ourInstagram__product_column{
+        min-width: 270px;
+    }
+    .footer__btn_go_up {
+       max-width: 40px;
+        bottom: 0;
+        right: 15px;
+    }
+    .footer__subscription_title {
+        margin-bottom: 10px;
+    }
+    .footer__bottom_logo{
+        max-width: 120px;
+    }
+    .footer_bottom {
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+    /*.footer__btn_go_up {*/
+    /*    top: 425px;*/
+    /*}*/
 }

@@ -1,4 +1,4 @@
-/**{*/
+/** {*/
 /*    color: red;*/
 /*    border: 2px solid red;*/
 /*}*/
@@ -26,12 +26,19 @@ img {
 }
 
 .header {
+    position: relative;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     background-color: #000000;
     color: #FFFFFF;
+}
+
+.header__menu_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__information {
@@ -51,13 +58,16 @@ img {
 .header_information_phone:hover {
     color: #FFFFFF;
 }
-.header__selects{
+
+.header__selects {
     margin-left: 40px;
 }
+
 .header__select_language,
-.header__select_currency{
+.header__select_currency {
     position: relative;
 }
+
 .header__select_btn_language, .header__select_btn_currency {
     padding: 9px 28px 9px 9px;
     border: none;
@@ -66,8 +76,9 @@ img {
     background: #000000 url("../images/headerMenu/select.svg") 87% 48% no-repeat;
     text-transform: uppercase;
 }
+
 .list_languages,
-.list_currency{
+.list_currency {
     display: none;
     position: absolute;
     right: 0;
@@ -80,20 +91,21 @@ img {
     text-transform: uppercase;
     z-index: 2;
 }
-.list_languages_item{
+
+.list_languages_item {
     padding: 7px 15px;
 }
-.list_languages_item:hover{
+
+.list_languages_item:hover {
     background: #3A3A42;
 }
+
 .header__select_language:hover > .list_languages,
-.header__select_currency:hover > .list_currency{
+.header__select_currency:hover > .list_currency {
     display: block;
 }
 
-.header__menu {
-    padding-top: 17px;
-    padding-bottom: 18px;
+.header__menu_font {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -101,6 +113,11 @@ img {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.header__menu {
+    padding-top: 17px;
+    padding-bottom: 18px;
 }
 
 .header__menu_link {
@@ -117,16 +134,47 @@ img {
     transform: matrix(1, 0, 0, -1, 0, 0);;
 }
 
+.header__menu_buttons_tablet {
+    display: none;
+}
+
 .header__menu_button {
     margin-left: 20px;
+    cursor: pointer;
 }
+
+.header__menu_logo_top {
+    display: none;
+    padding-top: 33px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header__menu_logo_top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 26px;
+    width: 26px;
+    background: transparent url(../images/headerMenu/logo_top.png) 0 0/100% no-repeat;
+}
+
+.header__menu_body {
+    display: flex;
+    align-items: center;
+}
+
 /*==============start header__dropdown-menu================*/
-.header__menu_link_wrapper{
+.header__menu_link_wrapper {
     position: relative;
 }
-.header__dropdown_menu{
+
+.header__dropdown_menu {
     display: none;
-   width: 480px;
+    width: 480px;
     max-width: 480px;
     padding: 30px 15px 15px;
     position: absolute;
@@ -139,31 +187,37 @@ img {
     text-align: left;
 }
 
-.header__dropdown-menu-item{
+.header__dropdown-menu-item {
     margin-bottom: 14px;
 }
-.header__dropdown-menu_results_shops{
+
+.header__dropdown-menu_results_shops {
     list-style: initial;
     padding-left: 15px;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 20px;
     margin-top: 14px;
 }
-.header__dropdown-menu_results_shops_item::marker{
+
+.header__dropdown-menu_results_shops_item::marker {
     color: #FCB500;
 }
-.header__dropdown-menu_results_shops_item{
+
+.header__dropdown-menu_results_shops_item {
     margin-bottom: 14px;
 }
-.header__dropdown-menu_results_shops_item:last-child{
+
+.header__dropdown-menu_results_shops_item:last-child {
     margin-bottom: 0;
 }
+
 .header__menu_link_wrapper:hover > .header__dropdown_menu {
     display: flex;
 }
+
 /*==============end header__dropdown-menu================*/
 
 .slider {
@@ -171,9 +225,11 @@ img {
     text-align: center;
     /*min-height: 500px;*/
 }
-.d-block{
-    min-height: 310px;
+
+.d-block {
+    /*min-height: 310px;*/
 }
+
 .carousel-control-prev,
 .carousel-control-next {
     display: block;
@@ -319,6 +375,7 @@ img {
 .newDevelopments__all_goods {
     margin-left: 100px;
     text-decoration-line: underline;
+    min-width: 84px;
 }
 
 .newDevelopments__all_goods:hover {
@@ -329,6 +386,11 @@ img {
 .newDevelopments__navigation_goods_cards {
     padding-bottom: 20px;
 }
+
+.newDevelopments__navigation_goods_title {
+    /*flex: 1 1 60%;*/
+}
+
 
 .newDevelopments__cards {
     padding-top: 0;
@@ -341,6 +403,7 @@ img {
     cursor: pointer;
     padding-top: 5px;
     padding-bottom: 5px;
+    min-width: 32px;
 }
 
 .newDevelopments__arrow_right {
@@ -348,6 +411,7 @@ img {
     cursor: pointer;
     padding-top: 5px;
     padding-bottom: 5px;
+    min-width: 32px;
 }
 
 .newDevelopments__card {
@@ -602,8 +666,11 @@ img {
 }
 
 .footer__img {
-
     padding-top: 80px;
+}
+
+.footer__img_bg {
+    width: 100%;
 }
 
 .footer__menu {
@@ -619,9 +686,10 @@ img {
 
 .footer__btn_go_up {
     position: absolute;
-    top: -276px;
-    right: 0;
+    top: -326px;
+    right: 0px;
 }
+
 
 .footer__menu_item_title {
     margin-bottom: 30px;
@@ -630,6 +698,10 @@ img {
 .footer__menu_item_variant {
     margin-bottom: 20px;
     /*cursor: pointer;*/
+}
+
+.footer__menu_item_variant:last-child {
+    margin-bottom: 0;
 }
 
 .footer__menu_item {
@@ -666,9 +738,10 @@ img {
 }
 
 /*=======================================================================*/
-.footer__subscription{
+.footer__subscription {
     margin-left: 120px;
 }
+
 .footer__subscription_title {
     margin-bottom: 30px;
 }
@@ -718,7 +791,7 @@ input:focus ~ .label {
 }
 
 .footer__bottom_bank_cards {
-    padding-right: 50px;
+    padding-left: 150px;
 }
 
 .footer__bottom_bank_card {
@@ -726,7 +799,8 @@ input:focus ~ .label {
 }
 
 .footer__bottom_socials {
-    padding-left: 50px;
+    padding: 20px 150px 20px 0;
+
 }
 
 .footer__bottom_social {
@@ -764,6 +838,10 @@ input:focus ~ .label {
     background: transparent url(../images/footer/youtube_orang.svg) 0 0/100% no-repeat;
 }
 
+.footer__bottom_business_text {
+    margin-bottom: 0;
+}
+
 .footer__bottom_business {
     position: relative;
     font-family: Gilroy, sans-serif;
@@ -779,8 +857,10 @@ input:focus ~ .label {
 .footer__bottom_business::before {
     content: "";
     position: absolute;
-    top: -3px;
+    top: 0;
+    bottom: 0;
     left: 0;
+    margin: auto;
     height: 23px;
     width: 23px;
     background: transparent url(../images/footer/icon-wss.svg) 0 0/100% no-repeat;

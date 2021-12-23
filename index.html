@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="css/common_styles.css">
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/media_style.css">
-
     <link rel="stylesheet" href="css/modal.css">
+
+    <link rel="stylesheet" href="css/media_style.css">
 
 </head>
 <body>
@@ -62,90 +62,242 @@
     </div>
 
     <div class="header__menu">
-        <div class="header__menu_container container d-flex justify-content-between">
-            <a href="#">
-                <img class="header__menu_logo" src="images/headerMenu/logo.png" alt="logo">
+        <div class="header__menu_container container">
+            <ul class="header__menu_buttons_tablet">
+                <li class="header__menu_button ">
+                    <img src="images/headerMenu/burger_menu.svg" alt="burger menu">
+                </li>
+                <li class="header__menu_button">
+                    <img src="images/headerMenu/search.svg" alt="search">
+                </li>
+            </ul>
+            <a href="#" class="header__menu_logo">
+                <img src="images/headerMenu/logo.png" alt="logo">
             </a>
-            <nav class="header__menu_body d-flex align-items-center">
-                <ul class="header__menu_body d-flex">
-                    <li class="header__menu_link_wrapper">
-                        <a href="#" class="header__menu_link">Одяг</a>
-                    </li>
-                    <li class="header__menu_link_wrapper">
-                        <a href="#" class="header__menu_link">Медицина</a>
-                    </li>
-                    <li class="header__menu_link_wrapper">
-                        <div>
-                            <a href="#" class="header__menu_link">Підсумки</a>
-                        </div>
-                        <div class="header__dropdown_menu row">
-                            <div class="col-12 col-sm-6 col-md-6">
-                                <ul class=" header__dropdown_menu_list paragraph2">
-                                    <li class="header__dropdown-menu-item">
-                                        Підсумки для магазинів
-                                        <ul class="header__dropdown-menu_results_shops">
-                                            <li class="header__dropdown-menu_results_shops_item">Для пістолетних
-                                                магазинів
-                                            </li>
-                                            <li class="header__dropdown-menu_results_shops_item">Для автоматних
-                                                магазинів
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Для гранат
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Для рацій
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Універсальні
-                                    </li>
+            <div class="header__menu_logo_top">
+                <a href="#">
+                    <!--                    <img class="header__menu_logo" src="images/headerMenu/logo_top.png" alt="logo">-->
+                    <img src="images/headerMenu/logo_bottom.png" alt="logo">
+                </a>
+            </div>
 
-                                </ul>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-6">
-                                <ul class="paragraph2">
-                                    <li class="header__dropdown-menu-item">
-                                        Утилітарні
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Пістолетні кобури
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Чохол короба ПКМ
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Для гідросистеми
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Сумка-сухарка
-                                    </li>
-                                    <li class="header__dropdown-menu-item">
-                                        Сумка для скиду магазинів
-                                    </li>
-                                </ul>
-                            </div>
+            <!--            <nav class=" d-flex align-items-center">-->
+            <ul class="header__menu_body header__menu_font">
+                <li class="header__menu_link_wrapper">
+                    <a href="#" class="header__menu_link">Одяг</a>
+                </li>
+                <li class="header__menu_link_wrapper">
+                    <a href="#" class="header__menu_link">Медицина</a>
+                </li>
+                <li class="header__menu_link_wrapper">
+                    <div>
+                        <a href="#" class="header__menu_link">Підсумки</a>
+                    </div>
+                    <div class="header__dropdown_menu row">
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <ul class=" header__dropdown_menu_list paragraph2">
+                                <li class="header__dropdown-menu-item">
+                                    Підсумки для магазинів
+                                    <ul class="header__dropdown-menu_results_shops">
+                                        <li class="header__dropdown-menu_results_shops_item">Для пістолетних
+                                            магазинів
+                                        </li>
+                                        <li class="header__dropdown-menu_results_shops_item">Для автоматних
+                                            магазинів
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Для гранат
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Для рацій
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Універсальні
+                                </li>
+
+                            </ul>
                         </div>
-                    </li>
-                    <li class="header__menu_link_wrapper">
-                        <a href="#" class="header__menu_link">Рюкзаки</a></li>
-                    <li class="header__menu_link_wrapper">
-                        <a href="#" class="header__menu_link">Розгрузки</a></li>
-                </ul>
-            </nav>
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <ul class="paragraph2">
+                                <li class="header__dropdown-menu-item">
+                                    Утилітарні
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Пістолетні кобури
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Чохол короба ПКМ
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Для гідросистеми
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Сумка-сухарка
+                                </li>
+                                <li class="header__dropdown-menu-item">
+                                    Сумка для скиду магазинів
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="header__menu_link_wrapper">
+                    <a href="#" class="header__menu_link">Рюкзаки</a></li>
+                <li class="header__menu_link_wrapper">
+                    <a href="#" class="header__menu_link">Розгрузки</a></li>
+            </ul>
+            <!--            </nav>-->
             <ul class="header__menu_buttons d-flex align-items-center">
                 <li class="header__menu_button"><img src="images/headerMenu/search.svg" alt="search"></li>
-                <li class="header__menu_button"><img src="images/headerMenu/icon.svg" alt="icon"></li>
-                <li class="header__menu_button"><img src="images/headerMenu/love.svg" alt="love"></li>
-                <li class="header__menu_button"><img src="images/headerMenu/cart.svg" alt="cart"></li>
-                <div>
-                    <div></div>
-                    <div></div>
-                </div>
+                <li class="header__menu_button">
+                    <img src="images/headerMenu/icon.svg" alt="icon">
+                </li>
+                <li class="header__menu_button">
+                    <img src="images/headerMenu/heart4.svg" height="35" width="41" alt="love">
+                </li>
+                <li class="header__menu_button">
+                    <img src="images/headerMenu/cart28.svg" height="35" width="41" alt="cart">
+                </li>
             </ul>
         </div>
     </div>
+
+    <div class="header__menu_popup_content">
+        <ul class="header__menu_popup_list d-flex align-items-center justify-content-between">
+            <li class="header__menu_popup_item header__select_language">
+                <button class="header__select_btn_language">УКР</button>
+                <ul class="list_languages">
+                    <li class="list_languages_item">УКРАЇНСЬКА</li>
+                    <li class="list_languages_item">РУССКИЙ</li>
+                    <li class="list_languages_item">ENGlish</li>
+                </ul>
+            </li>
+            <li class="header__menu_popup_item header__select_currency">
+                <button class="header__select_btn_currency">uah</button>
+                <ul class="list_currency">
+                    <li class="list_languages_item">Uah (₴)</li>
+                    <li class="list_languages_item">eur (€)</li>
+                    <li class="list_languages_item">usd ($)</li>
+                </ul>
+            </li>
+            <li class="header__menu_popup_item _icon-icon_user">
+            </li>
+            <li class="header__menu_popup_item">
+                <button class="header__menu_popup_close btn_read_more _icon-close"></button>
+            </li>
+        </ul>
+        <ul class="header__menu_popup_tablet">
+            <li class="header__menu_popup_tablet_link_wrapper">
+                <a href="#" class="header__menu_popup_tablet_link header__menu_font">Одяг</a>
+            </li>
+            <li class="header__menu_popup_tablet_link_wrapper">
+                <a href="#" class="header__menu_popup_tablet_link header__menu_font">Медицина</a>
+            </li>
+            <li class="header__menu_popup_tablet_link_wrapper">
+                <div>
+                    <a href="#" class="header__menu_popup_tablet_link header__menu_font">Підсумки</a>
+                </div>
+                <ul class=" header__dropdown_list paragraph2">
+                    <li class="header__dropdown-menu-item">
+                        Підсумки для магазинів
+                        <ul class="header__dropdown-menu_results_shops">
+                            <li class="header__dropdown-menu_results_shops_item">Для пістолетних
+                                магазинів
+                            </li>
+                            <li class="header__dropdown-menu_results_shops_item">Для автоматних
+                                магазинів
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Для гранат
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Для рацій
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Універсальні
+                    </li>
+                </ul>
+                <ul class="paragraph2">
+                    <li class="header__dropdown-menu-item">
+                        Утилітарні
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Пістолетні кобури
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Чохол короба ПКМ
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Для гідросистеми
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Сумка-сухарка
+                    </li>
+                    <li class="header__dropdown-menu-item">
+                        Сумка для скиду магазинів
+                    </li>
+                </ul>
+            </li>
+            <li class="header__menu_popup_tablet_link_wrapper">
+                <a href="#" class="header__menu_popup_tablet_link header__menu_font">Рюкзаки</a></li>
+            <li class="header__menu_popup_tablet_link_wrapper">
+                <a href="#" class="header__menu_popup_tablet_link header__menu_font">Розгрузки</a>
+            </li>
+        </ul>
+        <ul class="header__menu_popup_tablet_link_info paragraph2">
+            <li class="header__dropdown-menu-item">
+                Розмірна сітка
+            </li>
+            <li class="header__dropdown-menu-item">
+                Матеріали
+            </li>
+            <li class="header__dropdown-menu-item">
+                Доставка та оплата
+            </li>
+            <li class="header__dropdown-menu-item">
+                Обмін та повернення
+            </li>
+            <li class="header__dropdown-menu-item">
+                Контакти
+            </li>
+            <li class="header__dropdown-menu-item">
+                Блог
+            </li>
+            <li class="header__dropdown-menu-item">
+                Про нас
+            </li>
+            <li class="header__dropdown-menu-item">
+                Публічна оферта
+            </li>
+            <li class="header__dropdown-menu-item">
+                Політика конфіденційності
+            </li>
+            <li class="header__dropdown-menu-item">
+                Правила використання файлів Cookie
+            </li>
+        </ul>
+        <ul class="header__menu_popup_tablet_link_info paragraph2">
+            <li class="footer__menu_item_variant paragraph2">
+                <div class="footer__menu_item_phone d-flex ">
+                    <div class="_icon-icon-phone"></div>
+                    <a class="footer__menu_link link_tel" href="tel:+380968120013">+38 (096) 812 00 13</a>
+                </div>
+                <div class="footer__menu_item_text">Пн–Сб, 09:00–19:00</div>
+            </li>
+            <li class="footer__menu_item_variant paragraph2">
+                <div class="footer__menu_item_phone d-flex ">
+                    <div class="_icon-icon-mail"></div>
+                    <a class=" footer__menu_link link_eml">hofner.ukraine@gmail.com</a>
+                </div>
+                <div class="footer__menu_item_text">Електронна адреса</div>
+            </li>
+        </ul>
+    </div>
+
 </header>
 
 <section class="slider">
@@ -238,8 +390,8 @@
 <section class="newDevelopments paddingTB">
     <div class="newDevelopments__container container">
         <div class="newDevelopments__navigation_goods_cards d-flex justify-content-between">
-            <h2>Наші нові розробки</h2>
-            <div class="d-flex align-items-center">
+            <h2 class="newDevelopments__navigation_goods_title">Наші нові розробки</h2>
+            <div class="newDevelopments__navigation_goods_btn d-flex align-items-center justify-content-between">
                 <div class="newDevelopments__arrow d-flex align-items-center ">
                     <div class="newDevelopments__arrow_left" href="#carouselExampleControls2" role="button"
                          data-slide="prev">
@@ -473,7 +625,7 @@
 <section class="ourInstagram paddingTB">
     <div class="ourInstagram__container container">
         <div class="ourInstagram__row row">
-            <div class="ourInstagram__info col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="ourInstagram__info col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                 <h2 class="ourInstagram__title">Ще більше цікавого у нашому Instagram</h2>
                 <p class="ourInstagram__text paragraph3">Підписуйся на нашу сторінку в Instagram та першим
                     дізнайвайся про новинки та акції. Також на тебе чекають
@@ -483,37 +635,7 @@
                 </button>
             </div>
 
-            <div class="ourInstagram__photos col-12 col-sm-12 col-md-8">
-                <!--            <div class="ourInstagram__photos col-md-8 col-lg-8 col-xl-8">-->
-                <!--                <div class="ourInstagram__photo_top d-flex">-->
-                <!--                    <div class="ourInstagram__photo">-->
-                <!--                        <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>-->
-                <!--                        <img src="images/ourInstagram/hofner1.png" alt="Фотография 1">-->
-                <!--                    </div>-->
-                <!--                    <div class="ourInstagram__photo">-->
-                <!--                        <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>-->
-                <!--                        <img src="images/ourInstagram/hofner2.png" alt="Фотография 2">-->
-                <!--                    </div>-->
-                <!--                    <div class="ourInstagram__photo">-->
-                <!--                        <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>-->
-                <!--                        <img src="images/ourInstagram/hofner3.png" alt="Фотография 3">-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="ourInstagram__photo_bottom d-flex">-->
-                <!--                    <div class="ourInstagram__photo">-->
-                <!--                        <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>-->
-                <!--                        <img src="images/ourInstagram/hofner4.png" alt="Фотография 1">-->
-                <!--                    </div>-->
-                <!--                    <div class="ourInstagram__photo">-->
-                <!--                        <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>-->
-                <!--                        <img src="images/ourInstagram/hofner5.png" alt="Фотография 2">-->
-                <!--                    </div>-->
-                <!--                    <div class="ourInstagram__photo">-->
-                <!--                        <div class="ourInstagram__photo_eml paragraph2">@hofner.ukraine</div>-->
-                <!--                        <img src="images/ourInstagram/hofner6.png" alt="Фотография 3">-->
-                <!--                    </div>-->
-                <!--                </div>-->
-
+            <div class="ourInstagram__photos col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
                 <div class="ourInstagram__product row">
                     <div class="ourInstagram__product_column col-4 col-sm-4 col-md-4">
                         <div class="ourInstagram__photo">
@@ -687,10 +809,7 @@
 
 <footer class="footer">
     <div class="footer__img">
-        <img src="images/footer/footer_img.png" alt="footer image"/>
-        <div class="footer__container container">
-            <a class="footer__btn_go_up" href="#"><img src="images/footer/go_up-button.png" alt="go up button"/></a>
-        </div>
+        <img class="footer__img_bg" src="images/footer/footer_img.png" alt="footer image"/>
     </div>
     <div class="footer__menu">
         <div class="footer__container container d-flex justify-content-between">
@@ -698,64 +817,75 @@
                 <li class="footer__menu_item">
                     <ul>
                         <li class="footer__menu_item_title"><h4>Каталог товарів</h4></li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Одяг</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Медицина</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Підсумки</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Рюкзаки</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Розгрузки</a>
+                        <li class="footer__menu_catalog">
+                            <ul>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Одяг</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Медицина</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Підсумки</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Рюкзаки</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Розгрузки</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
                 <li class="footer__menu_item">
                     <ul>
                         <li class="footer__menu_item_title"><h4>Покупцям</h4></li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Розмірна сітка</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Матеріали</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Доставка та оплата</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Обмін та повернення</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Контакти</a>
+                        <li class="footer__menu_catalog">
+                            <ul>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Розмірна сітка</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Матеріали</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Доставка та оплата</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Обмін та повернення</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Контакти</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
                 <li class="footer__menu_item">
                     <ul>
                         <li class="footer__menu_item_title"><h4>Компанія</h4></li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Блог</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Публічна оферта</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Політика конфіденційності</a>
-                        </li>
-                        <li class="footer__menu_item_variant paragraph2">
-                            <a class="footer__menu_link" href="#">Правила використання <br> файлів Cookie</a>
+                        <li class="footer__menu_catalog">
+                            <ul>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Блог</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Публічна оферта</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Політика конфіденційності</a>
+                                </li>
+                                <li class="footer__menu_item_variant paragraph2">
+                                    <a class="footer__menu_link" href="#">Правила використання <br> файлів Cookie</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
-
             </ul>
             <div class="footer__tel_email d-flex justify-content-between">
-                <ul>
+                <ul class="footer__contacts">
                     <li class="footer__menu_item_title"><h4>Контакти</h4></li>
                     <li class="footer__menu_item_variant paragraph2">
                         <div class="footer__menu_item_phone d-flex ">
@@ -782,8 +912,10 @@
                     <button class="footer__subscription_btn goTo">
                         ОФОРМИТИ ПІДПИСКУ
                     </button>
+
                 </div>
             </div>
+            <a class="footer__btn_go_up" href="#"><img src="images/footer/go_up-button.png" alt="go up button"/></a>
         </div>
     </div>
     <div class="footer_bottom">
@@ -800,6 +932,8 @@
                         <img src="images/footer/icon-mastercard.svg" alt="mastercard">
                     </li>
                 </ul>
+            </div>
+            <div class="footer__bottom_cardsAndSocial d-flex align-items-center">
                 <ul class="footer__bottom_socials d-flex">
                     <li class="footer__bottom_social facebook_white">
                     </li>
@@ -810,7 +944,7 @@
                 </ul>
             </div>
             <div class="footer__bottom_business">
-                Quality Business Solutions
+                <p class="footer__bottom_business_text">Quality Business Solutions</p>
             </div>
         </div>
     </div>
