@@ -64,7 +64,7 @@
     <div class="header__menu">
         <div class="header__menu_container container">
             <ul class="header__menu_buttons_tablet">
-                <li class="header__menu_button ">
+                <li class="header__menu_button" id="open_burger_menu_btn">
                     <img src="images/headerMenu/burger_menu.svg" alt="burger menu">
                 </li>
                 <li class="header__menu_button">
@@ -184,7 +184,7 @@
             </li>
             <li class="header__menu_popup_item _icon-icon_user">
             </li>
-            <li class="header__menu_popup_item">
+            <li class="header__menu_popup_item" id="close_burger_menu_btn">
                 <button class="header__menu_popup_close btn_read_more _icon-close"></button>
             </li>
         </ul>
@@ -777,8 +777,8 @@
 
 <div class="modal__ourAdvantages__btn_read_more">
     <div class="modal__ourAdvantages_content">
-            <h3 class="ourAdvantages__info_title cloth">Оригінальна тканина і фурнітура</h3>
-            <button class="modal__ourAdvantages_close btn_read_more">Закрити</button>
+        <h3 class="ourAdvantages__info_title cloth">Оригінальна тканина і фурнітура</h3>
+        <button class="modal__close btn_read_more">Закрити</button>
         <div class="modal__ourAdvantages_content_text row">
             <div class=" col-12 col-sm-6 col-md-6">
                 <p class="ourAdvantages__info_text paragraph3">
@@ -802,28 +802,7 @@
                     і надійності.
                 </p>
             </div>
-            <div class=" col-12 col-sm-6 col-md-6">
-                <p class="ourAdvantages__info_text paragraph3">
-                    Безсумнівно, ціна замінника дешевша. Але ми, в першу чергу, цінуємо життя наших клієнтів, яке
-                    залежить від якості екіпірування. Тріснутий фастекс або армована нитка китайського виробництва,
-                    можуть призвести до сумних наслідків під час бою.
-                </p>
-            </div>
-            <div class=" col-12 col-sm-6 col-md-6">
-                <p class="ourAdvantages__info_text paragraph3">
-                    Фурнітура (люверси, фастекси, липучки) тільки YKK та 2M. Ніяких замінників чи підробок. Пластик,
-                    який використовується у фастексах YKK та 2M можливо вбити, напевно, тільки прямим попаданням
-                    кулі. А зчеплення липучок між собою можна порівняти з швами інверторного зварювання.
-                </p>
-            </div>
-            <div class=" col-12 col-sm-6 col-md-6">
-                <p class="ourAdvantages__info_text paragraph3">
-                    У виробництві ми використовуємо матеріали Cordura, поліамідні тканини з США, Європи та Південної
-                    Кореї. Про переваги матеріалу Cordura - поліамідної тканини з щільністю близько 100-1000 ден
-                    можна говорити довго. Потрібні гарантії? Спорядження збройних сил США - яскравий приклад якості
-                    і надійності.
-                </p>
-            </div>
+
         </div>
     </div>
 </div>
@@ -832,6 +811,9 @@
 <footer class="footer">
     <div class="footer__img">
         <img class="footer__img_bg" src="images/footer/footer_img.png" alt="footer image"/>
+        <div class="footer__container container">
+            <a class="footer__btn_go_up" href="#"><img src="images/footer/go_up-button.png" alt="go up button"/></a>
+        </div>
     </div>
     <div class="footer__menu">
         <div class="footer__container container d-flex justify-content-between">
@@ -937,7 +919,8 @@
 
                 </div>
             </div>
-            <a class="footer__btn_go_up" href="#"><img src="images/footer/go_up-button.png" alt="go up button"/></a>
+            <a class="footer__btn_go_up_small" href="#"><img src="images/footer/go_up-btn_small.svg"
+                                                             alt="go up button"/></a>
         </div>
     </div>
     <div class="footer_bottom">

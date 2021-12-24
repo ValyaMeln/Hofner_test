@@ -686,10 +686,15 @@ img {
 
 .footer__btn_go_up {
     position: absolute;
-    top: -326px;
-    right: 0px;
+    top: -351px;
+    right: 15px;
 }
-
+.footer__btn_go_up_small{
+    display: none;
+    position: absolute;
+    bottom: -55px;
+    right: 15px;
+}
 
 .footer__menu_item_title {
     margin-bottom: 30px;
