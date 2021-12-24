@@ -1,8 +1,3 @@
-/** {*/
-/*    color: red;*/
-/*    border: 2px solid red;*/
-/*}*/
-
 body, html {
     margin: 0;
     font-family: 'Alumni Sans', sans-serif;
@@ -27,12 +22,10 @@ img {
 
 .header {
     position: relative;
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    background-color: #000000;
     color: #FFFFFF;
+    background-color: #000000;
 }
 
 .header__menu_container {
@@ -70,25 +63,24 @@ img {
 
 .header__select_btn_language, .header__select_btn_currency {
     padding: 9px 28px 9px 9px;
-    border: none;
     font-weight: 600;
+    text-transform: uppercase;
     color: #FFFFFF;
     background: #000000 url("../images/headerMenu/select.svg") 87% 48% no-repeat;
-    text-transform: uppercase;
+    border: none;
 }
 
 .list_languages,
 .list_currency {
     display: none;
     position: absolute;
-    right: 0;
-    left: 0;
-    background: #1B1B1F;
-    border: 1px solid #31353E;
-    box-sizing: border-box;
     padding-top: 7px;
     padding-bottom: 7px;
+    right: 0;
+    left: 0;
     text-transform: uppercase;
+    background: #1B1B1F;
+    border: 1px solid #31353E;
     z-index: 2;
 }
 
@@ -121,17 +113,16 @@ img {
 }
 
 .header__menu_link {
-    /*position: relative;*/
     padding: 5px 30px;
     cursor: pointer;
     color: #FFFFFF;
 }
 
 .header__menu_link:hover {
-    color: #FFFFFF;
     text-decoration: none;
+    color: #FFFFFF;
     border-bottom: 2px solid #FCB500;
-    transform: matrix(1, 0, 0, -1, 0, 0);;
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .header__menu_buttons_tablet {
@@ -145,20 +136,20 @@ img {
 
 .header__menu_logo_top {
     display: none;
-    padding-top: 33px;
     position: relative;
+    padding-top: 33px;
     cursor: pointer;
 }
 
 .header__menu_logo_top::before {
     content: "";
     position: absolute;
+    height: 26px;
+    width: 26px;
     top: 0;
     left: 0;
     right: 0;
     margin: auto;
-    height: 26px;
-    width: 26px;
     background: transparent url(../images/headerMenu/logo_top.png) 0 0/100% no-repeat;
 }
 
@@ -174,17 +165,17 @@ img {
 
 .header__dropdown_menu {
     display: none;
-    width: 480px;
+    position: absolute;
+    /*width: 480px;*/
     max-width: 480px;
     padding: 30px 15px 15px;
-    position: absolute;
-    z-index: 15;
     left: 15px;
     top: 31px;
-    color: #FFFFFF;
-    text-transform: initial;
-    background: #1B1B1F;
     text-align: left;
+    text-transform: initial;
+    color: #FFFFFF;
+    background: #1B1B1F;
+    z-index: 15;
 }
 
 .header__dropdown-menu-item {
@@ -192,14 +183,14 @@ img {
 }
 
 .header__dropdown-menu_results_shops {
-    list-style: initial;
+    margin-top: 14px;
     padding-left: 15px;
+    list-style: initial;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 20px;
-    margin-top: 14px;
 }
 
 .header__dropdown-menu_results_shops_item::marker {
@@ -223,45 +214,41 @@ img {
 .slider {
     position: relative;
     text-align: center;
-    /*min-height: 500px;*/
-}
 
-.d-block {
-    /*min-height: 310px;*/
 }
 
 .carousel-control-prev,
 .carousel-control-next {
     display: block;
+    width: 20%;
+    margin: auto;
     top: 50%;
     bottom: 50%;
-    margin: auto;
     opacity: 1;
-    width: 20%;
 }
 
 .slider__button_link {
+    display: inline-block;
     position: absolute;
+    max-width: 280px;
+    margin: auto;
+    padding: 18px 55px;
     bottom: 90px;
     left: 0;
     right: 0;
-    margin: auto;
-    max-width: 280px;
-    background: #FCB500;
-    border-radius: 4px;
     font-weight: 600;
     font-size: 22px;
     line-height: 22px;
     text-transform: uppercase;
-    z-index: 10;
-    padding: 18px 55px;
-    display: inline-block;
     color: #000000;
+    background: #FCB500;
+    border-radius: 4px;
+    z-index: 10;
 }
 
 .slider__button_link:hover {
-    color: #000000;
     text-decoration: none;
+    color: #000000;
 }
 
 .slider__button:hover {
@@ -269,15 +256,10 @@ img {
 }
 
 .ourProducts {
-    background-color: #000000;
-    color: #FFFFFF;
     padding: 100px 0 70px;
+    color: #FFFFFF;
+    background-color: #000000;
 }
-
-.ourProducts__container {
-
-}
-
 .ourProducts__product_column {
     margin-bottom: 30px;
 }
@@ -295,12 +277,12 @@ img {
 }
 
 .ourProducts__product_choose {
+    margin-bottom: 10px;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     opacity: 0.5;
-    margin-bottom: 10px;
 }
 
 .ourProducts__product_title {
@@ -322,22 +304,9 @@ img {
     line-height: 15px;
     padding-left: 10px;
 }
-
-/*.ourProducts__product_all_goods::before {*/
-/*    content: "";*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    bottom: 0;*/
-/*    margin: auto;*/
-/*    right: 0;*/
-/*    height: 13px;*/
-/*    width: 32px;*/
-/*background: transparent url(../images/ourProducts/arrows_all_goods.svg) 0 0/100% no-repeat;*/
-/*}*/
-
 .ourProducts__product_all_goods:hover {
-    color: #FCB500;
     text-decoration-line: none;
+    color: #FCB500;
 }
 
 .ourProducts__product_column .has_no_padding {
@@ -345,8 +314,8 @@ img {
 }
 
 .ourProducts__product_item {
-    height: 100%;
     padding: 40px;
+    height: 100%;
 }
 
 .ourProducts__clothing {
@@ -369,13 +338,10 @@ img {
     background: url('../images/ourProducts/Loading.png') 100% 100%/cover no-repeat;
 }
 
-.newDevelopments {
-}
-
 .newDevelopments__all_goods {
     margin-left: 100px;
-    text-decoration-line: underline;
     min-width: 84px;
+    text-decoration-line: underline;
 }
 
 .newDevelopments__all_goods:hover {
@@ -387,11 +353,6 @@ img {
     padding-bottom: 20px;
 }
 
-.newDevelopments__navigation_goods_title {
-    /*flex: 1 1 60%;*/
-}
-
-
 .newDevelopments__cards {
     padding-top: 0;
     flex-wrap: nowrap;
@@ -399,35 +360,31 @@ img {
 }
 
 .newDevelopments__arrow_left {
+    min-width: 32px;
     margin-right: 10px;
-    cursor: pointer;
     padding-top: 5px;
     padding-bottom: 5px;
-    min-width: 32px;
+    cursor: pointer;
 }
 
 .newDevelopments__arrow_right {
+    min-width: 32px;
     margin-left: 10px;
-    cursor: pointer;
     padding-top: 5px;
     padding-bottom: 5px;
-    min-width: 32px;
+    cursor: pointer;
 }
 
 .newDevelopments__card {
     position: relative;
+    padding: 20px 20px 65px;
     text-align: center;
     background: #FFFFFF;
-    /*border: 1px solid #EDEDED;*/
     border: 1px solid #bb4141;
-    box-sizing: border-box;
-    padding: 20px 20px 65px;
-    /*width: 292px;*/
 }
 
 .newDevelopments__photo_goods {
     margin-bottom: 10px;
-
 }
 
 .newDevelopments__photo_vest {
@@ -440,22 +397,22 @@ img {
 }
 
 .newDevelopments__new_price {
+    margin-right: 5px;
     font-size: 22px;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #F33030;
-    margin-right: 5px;
 }
 
 .newDevelopments__old_price {
+    margin-left: 5px;
     font-size: 20px;
     line-height: 22px;
     letter-spacing: 0.02em;
     text-decoration-line: line-through;
     text-transform: uppercase;
     color: #5C5C5C;
-    margin-left: 5px;
 }
 
 .newDevelopments__toBasket {
@@ -498,10 +455,6 @@ img {
 }
 
 /*===========================================*/
-.ourInstagram {
-
-}
-
 .ourInstagram__product {
     padding-top: 0;
     padding-bottom: 0;
@@ -514,13 +467,13 @@ img {
 }
 
 .ourInstagram__title {
-    color: #000000;
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .ourInstagram__text {
-    color: #5C5C5C;
     margin-bottom: 40px;
+    color: #5C5C5C;
 }
 
 .ourInstagram__photo_top {
@@ -563,8 +516,8 @@ img {
 }
 
 .productsTested__title {
-    color: #FFFFFF;
     margin-bottom: 35px;
+    color: #FFFFFF;
 }
 
 .productsTested__text {
@@ -572,19 +525,19 @@ img {
 }
 
 .productsTested__video {
-    background: #000000;
     min-height: 300px;
+    background: #000000;
 }
 
 .productsTested__video iframe {
-    object-fit: cover;
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
 }
 
 /*========================================*/
@@ -621,7 +574,6 @@ img {
 .ourAdvantages__info_text {
     color: #5C5C5C;
     margin-bottom: 20px;
-    /*flex: 0 1 100%;*/
 }
 
 .ourAdvantages__info_title {
@@ -637,7 +589,6 @@ img {
     left: 0;
     height: 40px;
     width: 40px;
-
 }
 
 .design::before {
@@ -661,10 +612,6 @@ img {
 }
 
 /*================================================================*/
-.footer {
-
-}
-
 .footer__img {
     padding-top: 80px;
 }
@@ -702,7 +649,6 @@ img {
 
 .footer__menu_item_variant {
     margin-bottom: 20px;
-    /*cursor: pointer;*/
 }
 
 .footer__menu_item_variant:last-child {
@@ -719,8 +665,8 @@ img {
 }
 
 .footer__menu_link:hover {
-    color: #FCB500;
     text-decoration-line: none;
+    color: #FCB500;
 }
 
 .footer__menu_item_phone {
@@ -729,8 +675,8 @@ img {
 
 ._icon-icon-phone,
 ._icon-icon-mail {
-    font-size: 23px;
     margin-right: 10px;
+    font-size: 23px;
     color: #FCB500;
 }
 
@@ -752,8 +698,8 @@ img {
 }
 
 .footer__subscription_wrapper_inp {
-    position: relative;
     display: flex;
+    position: relative;
     margin-bottom: 10px;
 }
 
@@ -762,15 +708,15 @@ img {
     top: 45%;
     left: 12px;
     transform: translateY(-50%);
-    color: #8F9299;
     pointer-events: none;
     transition: all 0.3s ease 0s;
+    color: #8F9299;
 }
 
 .inp {
     width: 100%;
-    border: none;
     padding: 12px;
+    border: none;
     outline: none;
     color: black;
     transition: all 0.3s ease 0s;
@@ -784,15 +730,15 @@ input:focus ~ .label {
 }
 
 .footer__subscription_btn {
-    padding: 12px;
     width: 250px;
+    padding: 12px;
 }
 
 .footer_bottom {
-    border-top: 1px solid #31353E;;
     padding-top: 35px;
     padding-bottom: 35px;
     background: #000000;
+    border-top: 1px solid #31353E;;
 }
 
 .footer__bottom_bank_cards {
@@ -811,8 +757,8 @@ input:focus ~ .label {
 .footer__bottom_social {
     height: 26px;
     width: 26px;
-    cursor: pointer;
     margin-right: 13px;
+    cursor: pointer;
 }
 
 .footer__bottom_social:last-child {
@@ -849,25 +795,24 @@ input:focus ~ .label {
 
 .footer__bottom_business {
     position: relative;
+    padding-left: 35px;
     font-family: Gilroy, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
     color: #F8F9FD;
-    padding-left: 35px;
-
 }
 
 .footer__bottom_business::before {
     content: "";
     position: absolute;
+    height: 23px;
+    width: 23px;
     top: 0;
     bottom: 0;
     left: 0;
     margin: auto;
-    height: 23px;
-    width: 23px;
     background: transparent url(../images/footer/icon-wss.svg) 0 0/100% no-repeat;
 }
 
