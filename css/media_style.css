@@ -343,7 +343,15 @@
     .carouselExampleControlsSmall {
         display: block;
     }
-
+    .carousel-inner_title{
+        position: absolute;
+        padding-top: 26px;
+        color: #FFFFFF;
+        z-index: 2;
+    }
+    .carousel-inner_title_orange{
+        color: #FCB500;
+    }
     .slider__button_link {
         display: block;
         margin-left: 15px;
