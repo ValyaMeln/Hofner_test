@@ -188,9 +188,13 @@
         padding-right: 20px;
     }
 
-    .modal__ourAdvantages_content {
-        margin: auto;
-        overflow-y: scroll;
+    /*.modal__ourAdvantages_content {*/
+    /*    margin: auto;*/
+    /*    overflow-y: scroll;*/
+    /*}*/
+    .modal__ourAdvantages_content_text{
+        overflow: auto;
+        /*height: 100vh;*/
     }
 
 }
@@ -343,6 +347,10 @@
     .footer_bottom {
         padding-top: 25px;
         padding-bottom: 0;
+    }
+    .modal__ourAdvantages_content_text{
+        overflow-y: auto;
+        /*height: 100vh;*/
     }
     /*.footer__btn_go_up {*/
     /*    top: 425px;*/
