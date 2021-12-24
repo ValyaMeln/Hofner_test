@@ -131,6 +131,9 @@
     .slider__button_link {
         display: none;
     }
+    .ourProducts {
+        padding: 60px 0 60px;
+    }
 
     .tacticalEquipment__left_text {
         padding-right: 30px;
@@ -331,6 +334,24 @@
 @media screen and (max-width: 320px) {
     .paddingTB {
         padding: 50px 0;
+    }
+
+    .carouselExampleControls {
+        display: none;
+    }
+
+    .carouselExampleControlsSmall {
+        display: block;
+    }
+
+    .slider__button_link {
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 18px 25px;
+        bottom: 55px;
+        font-size: 18px;
+        border-radius: 0;
     }
 
     .newDevelopments__navigation_goods_cards {

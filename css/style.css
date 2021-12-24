@@ -217,6 +217,10 @@ img {
 
 }
 
+.carouselExampleControlsSmall {
+    display: none;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     display: block;
@@ -260,6 +264,7 @@ img {
     color: #FFFFFF;
     background-color: #000000;
 }
+
 .ourProducts__product_column {
     margin-bottom: 30px;
 }
@@ -304,6 +309,7 @@ img {
     line-height: 15px;
     padding-left: 10px;
 }
+
 .ourProducts__product_all_goods:hover {
     text-decoration-line: none;
     color: #FCB500;
@@ -636,7 +642,8 @@ img {
     top: -351px;
     right: 15px;
 }
-.footer__btn_go_up_small{
+
+.footer__btn_go_up_small {
     display: none;
     position: absolute;
     bottom: -55px;
