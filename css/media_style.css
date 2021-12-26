@@ -16,6 +16,10 @@
         justify-content: space-around;
     }
 
+    .ourInstagram__info {
+        padding-bottom: 20px;
+    }
+
     .footer__btn_go_up {
         top: -250px;
     }
@@ -108,7 +112,8 @@
 
     .header__menu_logo_top {
         display: block;
-        margin-left: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .header__menu_body {
@@ -128,9 +133,19 @@
         display: none;
     }
 
+    .header__menu_popup_item_user {
+        font-size: 25px;
+        color: white;
+    }
+
+    .header__menu_button:last-child {
+        margin-left: 50px;
+    }
+
     .slider__button_link {
         display: none;
     }
+
     .ourProducts {
         padding: 60px 0 60px;
     }
@@ -233,12 +248,16 @@
         max-width: 76px;
     }
 
-    .header__menu_buttons_tablet .header__menu_button {
-        max-width: 20px;
+    .header__menu_button_left:first-child {
+        margin-right: 20px;
     }
 
     .header__menu_button {
-        max-width: 30px;
+        margin-left: 0;
+    }
+
+    .header__menu_button:last-child {
+        margin-left: 20px;
     }
 
     .newDevelopments__navigation_goods_cards {
@@ -336,6 +355,34 @@
         padding: 50px 0;
     }
 
+    .header__menu_button {
+        font-size: 20px;
+    }
+
+    .header__menu_button_left {
+        font-size: 20px;
+    }
+
+    ._icon-oval-orange:after {
+        font-size: 20px;
+    }
+
+    .number_like {
+        right: -7px;
+    }
+
+    .number_elections {
+        right: -11px;
+    }
+
+    .header__menu_popup_item_user {
+        font-size: 20px;
+    }
+
+    .header__menu_popup_item:nth-child(4) {
+        font-size: 20px;
+    }
+
     .carouselExampleControls {
         display: none;
     }
@@ -343,15 +390,18 @@
     .carouselExampleControlsSmall {
         display: block;
     }
-    .carousel-inner_title{
+
+    .carousel-inner_title {
         position: absolute;
         padding-top: 26px;
         color: #FFFFFF;
         z-index: 2;
     }
-    .carousel-inner_title_orange{
+
+    .carousel-inner_title_orange {
         color: #FCB500;
     }
+
     .slider__button_link {
         display: block;
         margin-left: 15px;

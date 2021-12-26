@@ -77,78 +77,69 @@ h5 {
 .goTo:hover {
     background: #FFC635;
 }
-
-.toBasket {
+.newDevelopments__btn {
+    width: 50%;
     position: relative;
-    padding: 12px 30px 12px 20px;
-    border-radius: 0 0 0 4px;
+    padding: 12px 20px;
     font-family: Alumni Sans, sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    color: #000000;
-    background: #FCB500;
     border: none;
 }
-
-.toBasket::before {
-    content: "";
-    position: absolute;
-    height: 18px;
-    width: 19px;
-    top: 0;
-    bottom: 0;
-    right: 11px;
-    margin: auto;
-    background: transparent url(../svg/black_basket.svg) 0 0/100% no-repeat;
+.toBasket {
+    border-radius: 0 0 0 4px;
+    color: #000000;
+    background: #FCB500;
 }
+._icon-copy1:after{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 0;
+    right: 0;
+}
+
+/*.toBasket::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    height: 18px;*/
+/*    width: 19px;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    right: 11px;*/
+/*    margin: auto;*/
+/*    background: transparent url(../svg/black_basket.svg) 0 0/100% no-repeat;*/
+/*}*/
 
 .toBasket:hover {
     background: #FFC635;
 }
 
-.toBasket:hover::before {
-    content: "";
-    position: absolute;
-    height: 18px;
-    width: 19px;
-    top: 0;
-    bottom: 0;
-    right: 11px;
-    margin: auto;
-    background: transparent url(../svg/plus_black.svg) 0 0/100% no-repeat;
-}
+/*.toBasket:hover::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    height: 18px;*/
+/*    width: 19px;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    right: 11px;*/
+/*    margin: auto;*/
+/*    background: transparent url(../svg/plus_black.svg) 0 0/100% no-repeat;*/
+/*}*/
 
 .btnHighlight {
-    position: relative;
-    padding: 12px 40px 12px 25px;
-    font-family: Alumni Sans, sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+    border-radius: 0 0 4px 0;
     color: #FFFFFF;
     background: #000000;
     border: none;
-    border-radius: 0 0 4px 0;
 }
 
-.btnHighlight::before {
-    content: "";
-    position: absolute;
-    height: 18px;
-    width: 19px;
-    top: 0;
-    bottom: 0;
-    right: 18px;
-    margin: auto;
-    background: transparent url(../svg/white_heart.svg) 0 0/100% no-repeat;
+.btnHighlight:hover{
+    background-color: #1B1B1F;
 }
-
 .ourProducts__product_column .has_no_padding,
 .ourAdvantages__product_column .has_no_padding {
     padding: 0;

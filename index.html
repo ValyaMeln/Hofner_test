@@ -17,8 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;500;600;700&display=swap"
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/stylesFonts.css">
-    <link rel="stylesheet" href="css/svgFonts_style.css">
+
+    <link rel="stylesheet" href="css/svgFonts.css">
 
     <link rel="stylesheet" href="css/common_styles.css">
     <link rel="stylesheet" href="css/style.css">
@@ -65,14 +65,13 @@
     </div>
 
     <div class="header__menu">
-        <div class="header__menu_container container">
-            <ul class="header__menu_buttons_tablet">
-                <li class="header__menu_button" id="open_burger_menu_btn">
-                    <img src="images/headerMenu/burger_menu.svg" alt="burger menu">
+        <div class=" header__menu_container container">
+            <ul class="header__menu_buttons_tablet ">
+                <li class="header__menu_button_left _icon-burger-menu " id="open_burger_menu_btn">
                 </li>
-                <li class="header__menu_button">
-                    <img src="images/headerMenu/search.svg" alt="search">
+                <li class="header__menu_button_left _icon-search">
                 </li>
+
             </ul>
             <a href="#" class="header__menu_logo">
                 <img src="images/headerMenu/logo.png" alt="logo">
@@ -97,7 +96,7 @@
                         <a href="#" class="header__menu_link">Підсумки</a>
                     </div>
                     <div class="header__dropdown_menu row">
-                        <div class="col-12 col-sm-6 col-md-6">
+                        <div class=" col-lg-12 col-xl-6">
                             <ul class=" header__dropdown_menu_list paragraph2">
                                 <li class="header__dropdown-menu-item">
                                     Підсумки для магазинів
@@ -122,7 +121,7 @@
 
                             </ul>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6">
+                        <div class="col-lg-12 col-xl-6">
                             <ul class="paragraph2">
                                 <li class="header__dropdown-menu-item">
                                     Утилітарні
@@ -153,15 +152,19 @@
             </ul>
             <!--            </nav>-->
             <ul class="header__menu_buttons d-flex align-items-center">
-                <li class="header__menu_button"><img src="images/headerMenu/search.svg" alt="search"></li>
-                <li class="header__menu_button">
-                    <img src="images/headerMenu/icon.svg" alt="icon">
+                <li class="header__menu_button _icon-search">
                 </li>
-                <li class="header__menu_button">
-                    <img src="images/headerMenu/heart4.svg" height="35" width="41" alt="love">
+                <li class="header__menu_button _icon-icon-user">
                 </li>
-                <li class="header__menu_button">
-                    <img src="images/headerMenu/cart28.svg" height="35" width="41" alt="cart">
+                <li class="header__menu_button ">
+                    <div class="_icon-white-frame-heart _icon-oval-orange">
+                        <div class="number_like">4</div>
+                    </div>
+                </li>
+                <li class="header__menu_button ">
+                    <div class="_icon-basket _icon-oval-orange">
+                        <div class="number_elections">28</div>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -185,10 +188,10 @@
                     <li class="list_languages_item">usd ($)</li>
                 </ul>
             </li>
-            <li class="header__menu_popup_item _icon-icon_user">
+            <li class="header__menu_popup_item ">
+                <a href="#" class="header__menu_popup_item_user _icon-icon-user"></a>
             </li>
-            <li class="header__menu_popup_item" id="close_burger_menu_btn">
-                <button class="header__menu_popup_close btn_read_more _icon-close"></button>
+            <li class="header__menu_popup_item header__menu_popup_item_close _icon-close" id="close_burger_menu_btn">
             </li>
         </ul>
         <ul class="header__menu_popup_tablet">
@@ -335,7 +338,8 @@
                 <img class="d-block w-100" src="images/slider/banner1_small.png" alt="Первый слайд">
             </div>
             <div class="carousel-item">
-                <h2 class="carousel-inner_title">матеріал високих технологій cor<span class="carousel-inner_title_orange">dura</span></h2>
+                <h2 class="carousel-inner_title">матеріал високих технологій cor<span
+                        class="carousel-inner_title_orange">dura</span></h2>
                 <img class="d-block w-100" src="images/slider/banner2_small.png" alt="Второй слайд">
             </div>
         </div>
@@ -372,7 +376,7 @@
                     <h2 class="ourProducts__product_title">
                         Одяг
                     </h2>
-                    <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
                 </div>
             </div>
             <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
@@ -381,7 +385,7 @@
                     <h2 class="ourProducts__product_title">
                         Медицина
                     </h2>
-                    <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
                 </div>
             </div>
             <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
@@ -390,7 +394,7 @@
                     <h2 class="ourProducts__product_title">
                         Підсумки
                     </h2>
-                    <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
                 </div>
             </div>
             <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
@@ -399,7 +403,7 @@
                     <h2 class="ourProducts__product_title">
                         Рюкзаки
                     </h2>
-                    <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
                 </div>
             </div>
             <div class="ourProducts__product_column col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4">
@@ -408,7 +412,7 @@
                     <h2 class="ourProducts__product_title _icon-user_letter path2">
                         Розгрузки
                     </h2>
-                    <a class="ourProducts__product_all_goods _icon-arrows_all_goods" href="#">Усі товари</a>
+                    <a class="ourProducts__product_all_goods _icon-Vector-3" href="#">Усі товари</a>
                 </div>
             </div>
         </div>
@@ -451,10 +455,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -473,10 +477,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -495,10 +499,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -517,10 +521,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -543,10 +547,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -565,10 +569,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -587,10 +591,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -609,10 +613,10 @@
                                 <span class="newDevelopments__old_price">4 168,00 ₴</span>
                             </div>
                             <div class="d-flex align-items-center">
-                                <button class="newDevelopments__toBasket toBasket">
+                                <button class="newDevelopments__btn toBasket _icon-basket2">
                                     ДО КОШИКА
                                 </button>
-                                <button class="newDevelopments__btnHighlight btnHighlight">
+                                <button class="newDevelopments__btn btnHighlight _icon-white-frame-heart1">
                                     В ОБРАНЕ
                                 </button>
                             </div>
@@ -968,11 +972,14 @@
             </div>
             <div class="footer__bottom_cardsAndSocial d-flex align-items-center">
                 <ul class="footer__bottom_socials d-flex">
-                    <li class="footer__bottom_social facebook_white">
+                    <li class="footer__bottom_social_item">
+                        <a href="#" class="footer__bottom_social_link _icon-facebook"></a>
                     </li>
-                    <li class="footer__bottom_social instagram_white">
+                    <li class="footer__bottom_social_item">
+                        <a href="#" class="footer__bottom_social_link _icon-instagram"></a>
                     </li>
-                    <li class="footer__bottom_social youtube_white">
+                    <li class="footer__bottom_social_item">
+                        <a href="#" class="footer__bottom_social_link _icon-youtube"></a>
                     </li>
                 </ul>
             </div>
